@@ -25,27 +25,42 @@
 
 <body>
     <!-- header design -->
-    <header class="bg-[#b90005]">
-        <div class=" max-w-[1080px] container mx-auto text-white p-5 flex items-center">
+    <header>
+        <div class="bg-[#b90005]">
+            <div class=" max-w-[1080px] container mx-auto text-white p-5 flex items-center">
             
-            <h2 class="text-4xl ml-[-40px]">
-                <span>News</span>
-                <span>বাংলা</span>
-            </h2>
+                <h2 class="text-4xl ml-[-40px]">
+                    <span>News</span>
+                    <span>বাংলা</span>
+                </h2>
+            </div>
+        </div>
+
+        <!-- navber design -->
+        <nav class="max-w-[1080px] container mx-auto mt-2">
+            <ul id="navber" class="list-none flex gap-6 border-b-2 border-gray-300 p-4">
+        
+            </ul>
+        </nav>
+
+
+        <!-- banner -->
+        <div class="max-w-[1080px] bg-[#b90005] container mx-auto mt-8 flex gap-10 text-white items-center justify-around">
+            <img class="w-96" src="./img/bbc-news@logotyp.us.png" alt="">
+            <h1 class="text-5xl">অন্য বসার সংবাদ এর জন্য <br> এখানে ক্লিক করুন</h1>
         </div>
     </header>
     
-    <!-- navber design -->
-    <nav class="max-w-[1080px] container mx-auto mt-2">
-        <ul id="navber" class="list-none flex gap-6 border-b-2 border-gray-300 p-4">
-            
-        </ul>
-    </nav>
 
-    <!-- banner -->
-    <div class="max-w-[1080px] p-6 bg-[#b90005] container mx-auto mt-8">
-        <img class="w-60" src="./img/bbc-news@logotyp.us.png" alt="">
-    </div>
+    <!-- main part design -->
+     <main class="max-w-[1080px] container mx-auto mt-12">
+        <div class="grid grid-cols-4 gap-5" id="news-container">
+
+        </div>
+     </main>
+    
+
+   
 
 
     <script src="./js/index.js"></script>
