@@ -63,6 +63,7 @@ const displayNews = (articles)=>{
                 <img src="${article.image.srcset[8].url}"/>
             </div>
             <h2>${article.title}</h2>
+            <p>${article.time}</p>
         </div>
         `;
     })
@@ -70,3 +71,4 @@ const displayNews = (articles)=>{
 }
 
 categoriesData();
+newsCategories('main');
